@@ -1,0 +1,22 @@
+{
+    "title": "Jupyter Notebook",
+    "description": "A scenario to play with Jupyter Notebooks. You will have access to a Jupyter Scipy Notebook based on the jupyter/scipy-notebook image. You can create and load and run notebooks.",
+    "difficulty": "beginner",
+    "time": "10 minutes (to get going)",
+    "details": {
+      "steps": [{
+        "title": "Step 1 - Run the Jupyter Notebook environment",
+        "text": "step1.md"
+      },{
+        "title": "Step 2 - Access the Jupyter Notebook",
+        "text": "step2.md"
+      }],
+      "intro": {
+        "text": "intro.md",
+        "credits": ""
+      },
+      "finish": {
+        "text": "finish.md"
+      }
+    }
+  }
