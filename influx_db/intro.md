@@ -1,0 +1,1 @@
+Dieses Szenario bietet eine Einführung in InfluxDB.
