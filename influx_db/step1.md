@@ -1,4 +1,4 @@
-A Katacoda scenario is a series of Markdown files, bash scripts and a JSON file to define how your scenario should be configured, the text for the scenario and any automation required.
+<!-- A Katacoda scenario is a series of Markdown files, bash scripts and a JSON file to define how your scenario should be configured, the text for the scenario and any automation required.
 
 ## Task
 
@@ -14,4 +14,14 @@ An example of the current step is `katacoda-scenario-examples/create-scenario-10
 
 All the steps are collected via a JSON file, for example, `katacoda-scenario-examples/create-scenario-101/index.json`{{open}}.
 
-The JSON file defines the scenario title, the description, steps order, the UI layout and environment. You can find more about the layouts within our scenarios at [katacoda.com/docs/scenarios/layouts](https://katacoda.com/docs/scenarios/layouts) and environments at [katacoda.com/docs/scenarios/environments](https://katacoda.com/docs/scenarios/environments).
+The JSON file defines the scenario title, the description, steps order, the UI layout and environment. You can find more about the layouts within our scenarios at [katacoda.com/docs/scenarios/layouts](https://katacoda.com/docs/scenarios/layouts) and environments at [katacoda.com/docs/scenarios/environments](https://katacoda.com/docs/scenarios/environments). -->
+
+InfluxDB bla bla bla
+
+## Installation
+
+Verwenden Sie diesen Befehl, um das InfluxDB v2.0 Docker image herunterzuladen und auszuführen.
+
+`docker run --name influxdb -p 8086:8086 influxdb:2.0.4`{{execute}}
+
+Andere Möglichkeiten, mit denen InfluxDB auf MacOS, Linux oder in einem Kubernetes Cluster vewendet werden kann, finden Sie hier: https://docs.influxdata.com/influxdb/v2.0/get-started/
