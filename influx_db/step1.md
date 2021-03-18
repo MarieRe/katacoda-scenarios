@@ -22,6 +22,6 @@ InfluxDB bla bla bla
 
 Verwenden Sie diesen Befehl, um das InfluxDB v2.0 Docker image herunterzuladen und auszuführen.
 
-`docker run --name influxdb -p 8086:8086 influxdb:2.0.4`{{execute}}
+`docker run -d --name influxdb -p 8086:8086 influxdb:2.0.4`{{execute}}
 
 Andere Möglichkeiten, mit denen InfluxDB auf MacOS, Linux oder in einem Kubernetes Cluster vewendet werden kann, finden Sie hier: https://docs.influxdata.com/influxdb/v2.0/get-started/

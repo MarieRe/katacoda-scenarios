@@ -6,8 +6,9 @@
     "details": {
         "steps": [
           {
-            "title": "Step 1 - Scenario Structure",
-            "text": "step1.md"
+            "title": "Schritt 1",
+            "text": "step1.md",
+            "code": "step1.sh"
           },
           {
             "title": "Step 2 - Scenario Syntax",
@@ -27,7 +28,9 @@
           }
         ],
         "intro": {
-          "text": "intro.md"
+          "text": "intro.md",
+          "code": "dockerstart.sh",
+          "credits": ""
         },
         "finish": {
           "text": "finish.md"
