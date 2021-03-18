@@ -18,10 +18,18 @@ The JSON file defines the scenario title, the description, steps order, the UI l
 
 InfluxDB bla bla bla
 
-## Installation
+# Download
 
 Verwenden Sie diesen Befehl, um das InfluxDB v2.0 Docker image herunterzuladen und auszuführen.
 
 `docker run -d --name influxdb -p 8086:8086 influxdb:2.0.4`{{execute}}
 
-Andere Möglichkeiten, mit denen InfluxDB auf MacOS, Linux oder in einem Kubernetes Cluster vewendet werden kann, finden Sie hier: https://docs.influxdata.com/influxdb/v2.0/get-started/
+Weitere Möglichkeiten, mit denen InfluxDB auf MacOS, Linux oder in einem Kubernetes Cluster vewendet werden kann, finden Sie hier: https://docs.influxdata.com/influxdb/v2.0/get-started/
+
+Um das InfluxDB Command Line Interface zu verwenden, öffnen Sie eine Konsole im Docker Container.
+
+`docker exec -it influxdb /bin/bash`{{execute}}
+
+# Setup
+
+`influx setup`{{execute}}
