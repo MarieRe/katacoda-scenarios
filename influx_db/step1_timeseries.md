@@ -15,7 +15,7 @@ Wichtige Anforderungen für Zeitreihendatenbanken sind unter anderem:
 ## Beispiel
 Im Terminal sehen Sie die ersten 10 Reihen einer csv-Datei, die die Abweichung der durchschnittlichen Jahrestemperatur (1916-2016) vom Durchschnitt des gesamten 20. Jahrhunderts zeigt.
 
-![Graph](/assets/temperature_graph.png)
+![Temperaturverlauf](./assets/temperature_graph.png)
 
 Auf diesem Graph ist der Temperaturverlauf zu sehen. Zur Speicherung und Analyse dieser Zeitreihe bietet sich InfluxDB an.
 
