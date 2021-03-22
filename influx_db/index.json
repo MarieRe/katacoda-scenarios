@@ -27,13 +27,13 @@
           "client": [
             {
               "file": "*",
-              "target": "~/"
+              "target": "/root"
             }
           ],
           "host01": [
             {
-              "file": "*",
-              "target": "~/"
+              "file": "config.yml",
+              "target": "/root"
             }
           ]
         }
