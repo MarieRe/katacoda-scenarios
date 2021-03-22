@@ -32,7 +32,7 @@
           ],
           "host01": [
             {
-              "file": "config.yml",
+              "file": "*",
               "target": "/root"
             }
           ]
