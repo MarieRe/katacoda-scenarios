@@ -1,0 +1,1 @@
+cat temperature_example.csv | column -s, -t | less -#5 -N -S
