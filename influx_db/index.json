@@ -8,8 +8,7 @@
           {
             "title": "Zeitreihendatenbanken",
             "text": "step1_timeseries.md",
-            "foreground": "step1_timeseries.sh",
-            "background": "step1_background.sh"
+            "foreground": "step1_timeseries.sh"
           },
           {
             "title": "Erste Schritte",

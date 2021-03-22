@@ -12,7 +12,12 @@ Wichtige Anforderungen für Zeitreihendatenbanken sind unter anderem:
 - **Datenkomprimierung** muss möglich sein, da kleine Unterschiede unwichtiger werden, je älter die Daten sind
 - **Skalierbarkeit**, da meist große Datenmengen in kurzer Zeit produziert werden
 
-&nbsp;
+## Beispiel
+Im Terminal sehen Sie die ersten 10 Reihen einer csv-Datei, die die Abweichung der durchschnittlichen Jahrestemperatur (1916-2016) vom Durchschnitt des gesamten 20. Jahrhunderts zeigt.
+
+![Temperaturverlauf](./assets/temperature_graph.png)
+
+Auf diesem Graph ist der Temperaturverlauf zu sehen. Zur Speicherung und Analyse dieser Zeitreihe bietet sich InfluxDB an.
 
 &nbsp;
 
@@ -23,3 +28,4 @@ IoT - Internet of Things
 - Joshi, P., Hearty, J., Sjardin, B., Massaron, L. & Boschetti, A. (2016). Python : real world machine learning : learn to solve challenging data science problems by building powerful machine learning models using Python. Birmingham, UK: Packt Publishing
 - Namiot, D. (2015). Time Series Databases. DAMDID/RCDL, 1536, 132-137.
 - Naqvi, S. N. Z., Yfantidou, S., & Zimányi, E. (2017). Time series databases and influxdb. Studienarbeit, Université Libre de Bruxelles, 12.
+- https://datahub.io/core/global-temp/r/0.html
