@@ -18,7 +18,7 @@ Wichtige Anforderungen für Zeitreihendatenbanken sind unter anderem:
 **Abkürzungen:**\
 IoT - Internet of Things
 
-**Quellen:**\
-Joshi, P., Hearty, J., Sjardin, B., Massaron, L. & Boschetti, A. (2016). Python : real world machine learning : learn to solve challenging data science problems by building powerful machine learning models using Python. Birmingham, UK: Packt Publishing\
-Namiot, D. (2015). Time Series Databases. DAMDID/RCDL, 1536, 132-137.\
-Naqvi, S. N. Z., Yfantidou, S., & Zimányi, E. (2017). Time series databases and influxdb. Studienarbeit, Université Libre de Bruxelles, 12.
+**Quellen:**
+- Joshi, P., Hearty, J., Sjardin, B., Massaron, L. & Boschetti, A. (2016). Python : real world machine learning : learn to solve challenging data science problems by building powerful machine learning models using Python. Birmingham, UK: Packt Publishing
+- Namiot, D. (2015). Time Series Databases. DAMDID/RCDL, 1536, 132-137.
+- Naqvi, S. N. Z., Yfantidou, S., & Zimányi, E. (2017). Time series databases and influxdb. Studienarbeit, Université Libre de Bruxelles, 12.
