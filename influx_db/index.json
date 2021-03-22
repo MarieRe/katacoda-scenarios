@@ -6,25 +6,14 @@
     "details": {
         "steps": [
           {
+            "title": "Zeitreihendatenbanken",
+            "text": "step1_timeseries.md"
+          },
+          {
             "title": "Erste Schritte",
-            "text": "step1.md"
-          },
-          {
-            "title": "Step 2 - Scenario Syntax",
-            "text": "step2.md"
-          },
-          {
-            "title": "Step 3 - CLI",
-            "text": "step3.md"
-          },
-          {
-            "title": "Step 4 - VS Code Extension",
-            "text": "step4.md"
-          },
-          {
-            "title": "Step 5 - WebHooks",
-            "text": "step5.md"
+            "text": "step3_installation.md"
           }
+          
         ],
         "intro": {
           "text": "intro.md",

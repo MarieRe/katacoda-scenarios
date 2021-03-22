@@ -35,9 +35,5 @@ Um das InfluxDB Command Line Interface zu verwenden, öffnen Sie eine Konsole im
 Um InfluxDB einzurichten, müssen einige Informationen bereitgestellt werden. Geben Sie dafür 'influx setup' ein und legen Sie ihre Einstellungen fest. Um anstattdessen Testdaten zu verwenden, führen Sie nur diesen Schritt aus:
 
 ```
-influx setup
-    --username testname
-    --password testpassword
-    --org testorg
-    --bucket testbucket
+influx setup --username testname --password testpassword --org testorg --bucket testbucket --retention 0
 ```{{execute}}
