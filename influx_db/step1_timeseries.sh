@@ -1,1 +1,0 @@
-column -s, -t < temerature_example.csv | less -#2 -N -S
