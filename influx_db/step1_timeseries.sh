@@ -1,1 +1,1 @@
-head -10 temperature_example.csv
+head -10 temperature-example.csv

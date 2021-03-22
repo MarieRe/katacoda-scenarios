@@ -1,4 +1,5 @@
 {
+    "noindex": true,
     "title": "Influx DB - Einführung",
     "description": "Ein Szenario um in InfluxDB für Zeitreihen einzusteigen.",
     "difficulty": "beginner",
@@ -28,6 +29,6 @@
         "uilayout": "terminal"
       },
       "backend": {
-        "imageid": "ubuntu:2004"
+        "imageid": "ubuntu"
       }
   }
