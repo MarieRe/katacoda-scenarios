@@ -15,6 +15,6 @@ InfluxDB findet Anwendung in DevOps-Monitoring (z.B. bei IBM), für Real-Time An
 ## Beispiel
 Im Terminal sehen Sie die ersten 10 Reihen einer csv-Datei <sup>\[4\]</sup>, die die stündliche Temperatur in Stuttgart vom 1. bis zum 5. März 2021 zeigt.
 
-![Temperaturverlauf](.\assets\temperature-graph.png)
+![Temperaturverlauf](.\assets\temperature_example\temperature-graph.png)
 
 Auf diesem Graph ist der Temperaturverlauf zu sehen. Zur Speicherung und Analyse dieser Zeitreihe bietet sich InfluxDB an.
