@@ -16,10 +16,13 @@
             "foreground": "step2.sh"
           },
           {
-            "title": "Erste Schritte",
+            "title": "Installation",
             "text": "step3_installation.md"
+          },
+          {
+            "title": "Erste Schritte",
+            "text": "step4_writedata.md"
           }
-          
         ],
         "intro": {
           "text": "intro.md",
