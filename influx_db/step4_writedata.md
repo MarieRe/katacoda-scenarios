@@ -2,6 +2,6 @@ Nutzen Sie die bereitgestellte csv-Datei und schreiben Sie die Daten in ihren er
 
 ```
 influx write \
-  --bucket example-bucket \
+  --bucket testbucket \
   --file temperature-example.csv
 ```{{execute}}
