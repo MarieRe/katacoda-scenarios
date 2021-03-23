@@ -13,7 +13,7 @@ InfluxDB findet Anwendung in DevOps-Monitoring (z.B. bei IBM), für Real-Time An
 <sup>\[3\]</sup>
 
 ## Beispiel
-Im Terminal sehen Sie die ersten 10 Reihen einer csv-Datei <sup>\[4\]</sup>, die die Abweichung der durchschnittlichen Jahrestemperatur (1916-2016) vom Durchschnitt des gesamten 20. Jahrhunderts zeigt.
+Im Terminal sehen Sie die ersten 10 Reihen einer csv-Datei <sup>\[4\]</sup>, die die stündliche Temperatur in Stuttgart vom 1. bis zum 5. März 2021 zeigt.
 
 ![Temperaturverlauf](.\assets\temperature-graph.png)
 
