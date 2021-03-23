@@ -1,7 +1,14 @@
-InfluxDB ist ein Produkt von [InfluxData](https://www.influxdata.com/). Die Zeitreihendatenbank wird Open-Source entwickelt. Für die Verwendung von verwalteten InfluxDB-Clustern gibt es eine kostenlose, begrenzte Option und Vollversionen, die entweder nach Verwendung oder jährlich bezahlt werden.
+InfluxDB ist ein Produkt von [InfluxData](https://www.influxdata.com/). Die Zeitreihendatenbank wird Open-Source mit Go entwickelt und wurde 2013 erstmals veröffentlicht. Für die Verwendung von verwalteten InfluxDB-Clustern gibt es eine kostenlose, begrenzte Option und Vollversionen, die entweder nach Verwendung oder jährlich bezahlt werden. <sup>\[5\]</sup>
+
+InfluxDB findet Anwendung in DevOps-Monitoring (z.B. bei IBM), für Real-Time Analytics (z.B. bei eBay) und in vielen weiteren Fällen. Stand 2016 ist InfluxDB die am häufigsten verwendete Zeitreihendatenbank. <sup>\[3\]</sup>
+
+| **Vorteile**    | **Nachteile**   |
+| --------------- | --------------- |
+| hoher Durchsatz (*read* und *write*) | Begrenzte Skalierbarkeit in Open-Source Version (kein Clustering) |
+| ... | ... |
 
 ## Beispiel
-Im Terminal sehen Sie die ersten 10 Reihen einer csv-Datei, die die Abweichung der durchschnittlichen Jahrestemperatur (1916-2016) vom Durchschnitt des gesamten 20. Jahrhunderts zeigt.
+Im Terminal sehen Sie die ersten 10 Reihen einer csv-Datei<sup>\[4\]</sup>, die die Abweichung der durchschnittlichen Jahrestemperatur (1916-2016) vom Durchschnitt des gesamten 20. Jahrhunderts zeigt.
 
 ![Temperaturverlauf](.\assets\temperature-graph.png)
 
