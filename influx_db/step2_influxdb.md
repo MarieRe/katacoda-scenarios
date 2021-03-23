@@ -1,9 +1,8 @@
-Within each step, a series of Markdown extensions have been created that can provide various details for the users' experience.
+InfluxDB ist ein Produkt von [InfluxData](https://www.influxdata.com/). Die Zeitreihendatenbank wird Open-Source entwickelt. Für die Verwendung von verwalteten InfluxDB-Clustern gibt es eine kostenlose, begrenzte Option und Vollversionen, die entweder nach Verwendung oder jährlich bezahlt werden.
 
-For example, commands such as `echo "Run in Terminal"`{{execute}}
- can be executed by clicking the command.
+## Beispiel
+Im Terminal sehen Sie die ersten 10 Reihen einer csv-Datei, die die Abweichung der durchschnittlichen Jahrestemperatur (1916-2016) vom Durchschnitt des gesamten 20. Jahrhunderts zeigt.
 
-This is done by adding `execute` to the markdown code block, for example:
-<pre>`echo "Run in Terminal"`{{execute}}</pre>
+![Temperaturverlauf](.\assets\temperature-graph.png)
 
-More can be found at the scenario [on Markdown extensions](https://katacoda.com/scenario-examples/scenarios/markdown-extensions).
+Auf diesem Graph ist der Temperaturverlauf zu sehen. Zur Speicherung und Analyse dieser Zeitreihe bietet sich InfluxDB an.

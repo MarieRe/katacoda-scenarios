@@ -8,8 +8,12 @@
         "steps": [
           {
             "title": "Zeitreihendatenbanken",
-            "text": "step1_timeseries.md",
-            "foreground": "step1_timeseries.sh"
+            "text": "step1_timeseries.md"
+          },
+          {
+            "title": "InfluxDB",
+            "text": "step2_influxdb.md",
+            "foreground": "step2.sh"
           },
           {
             "title": "Erste Schritte",
