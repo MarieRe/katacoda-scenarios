@@ -4,11 +4,16 @@ InfluxDB findet Anwendung in DevOps-Monitoring (z.B. bei IBM), für Real-Time An
 
 | **Vorteile**    | **Nachteile**   |
 | --------------- | --------------- |
-| hoher Durchsatz (*read* und *write*) | Begrenzte Skalierbarkeit in Open-Source Version (kein Clustering) |
-| ... | ... |
+| Hoher Durchsatz (*read* und *write*) | Begrenzte Skalierbarkeit in Open-Source Version (kein Clustering) |
+| Vielseitige Kompatibilität (Input plugins, Grafana, Programmiersprachen) | Eher kleine  (aber wachsende) Community |
+| Schneller Einstieg durch gute Dokumentation und einfache Installation | Join-Operationen werden nicht unterstützt |
+| Eigene SQL-ähnliche Abfragesprache (Continuous Queries werden unterstützt) | Gruppierung von Daten mit großen Abständen ist nicht möglich |
+| Speicherzeit (retention) kann selbst festgelegt werden | nicht CRUD - *update* und *delete* ist nicht vorgesehen |
+
+<sup>\[3\]</sup>
 
 ## Beispiel
-Im Terminal sehen Sie die ersten 10 Reihen einer csv-Datei<sup>\[4\]</sup>, die die Abweichung der durchschnittlichen Jahrestemperatur (1916-2016) vom Durchschnitt des gesamten 20. Jahrhunderts zeigt.
+Im Terminal sehen Sie die ersten 10 Reihen einer csv-Datei <sup>\[4\]</sup>, die die Abweichung der durchschnittlichen Jahrestemperatur (1916-2016) vom Durchschnitt des gesamten 20. Jahrhunderts zeigt.
 
 ![Temperaturverlauf](.\assets\temperature-graph.png)
 
