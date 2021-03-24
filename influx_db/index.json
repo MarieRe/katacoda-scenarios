@@ -22,6 +22,10 @@
           {
             "title": "Erste Schritte",
             "text": "step4_writedata.md"
+          },
+          {
+            "title": "Abfragen",
+            "text": "step5_firstquery.md"
           }
         ],
         "intro": {
