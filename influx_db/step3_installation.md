@@ -10,7 +10,7 @@ Weitere Möglichkeiten, mit denen InfluxDB auf MacOS, Linux oder in einem Kubern
 
 Damit später auf die im vorherigen Schritt angezeigte Datei verwendet werden kann, kopieren Sie sie mit diesem Befehl in den Ordner `data` im container.
 
-`docker cp temperature-example.csv influxdb:/data`{{execute}}
+`docker cp temperature-example.csv influxdb:/`{{execute}}
 
 Um das InfluxDB Command Line Interface zu verwenden, öffnen Sie eine Konsole im Docker Container.
 
