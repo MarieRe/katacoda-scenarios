@@ -8,6 +8,10 @@ Verwenden Sie diesen Befehl, um das InfluxDB v2.0 Docker image herunterzuladen u
 
 Weitere Möglichkeiten, mit denen InfluxDB auf MacOS, Linux oder in einem Kubernetes Cluster vewendet werden kann, finden Sie hier: https://docs.influxdata.com/influxdb/v2.0/get-started/
 
+Damit später auf die im vorherigen Schritt angezeigte Datei verwendet werden kann, kopieren Sie sie mit diesem Befehl in den Ordner `data` im container.
+
+`docker cp temperature-example.csv influxdb:/data`{{execute}}
+
 Um das InfluxDB Command Line Interface zu verwenden, öffnen Sie eine Konsole im Docker Container.
 
 `docker exec -it influxdb /bin/bash`{{execute}}
