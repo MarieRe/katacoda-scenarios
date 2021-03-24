@@ -3,7 +3,6 @@
     "title": "Influx DB - Einführung",
     "description": "Ein Szenario um in InfluxDB für Zeitreihen einzusteigen.",
     "difficulty": "beginner",
-    "time": "10 minutes (to get going)",
     "details": {
         "steps": [
           {
@@ -30,7 +29,8 @@
         ],
         "intro": {
           "text": "intro.md",
-          "credits": ""
+          "credits": "",
+          "background": "intro.sh"
         },
         "finish": {
           "text": "finish.md"
