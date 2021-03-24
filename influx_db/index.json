@@ -30,7 +30,7 @@
         "intro": {
           "text": "intro.md",
           "credits": "",
-          "background": "intro.sh"
+          "foreground": "intro.sh"
         },
         "finish": {
           "text": "finish.md"
