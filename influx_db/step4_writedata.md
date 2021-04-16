@@ -13,3 +13,5 @@ influx write\
     --header "#datatype dateTime:RFC3339,double"\
     --file temperature-example.csv
 ```{{execute}}
+
+Mit dem eben verwendeten `influx write`-Kommando können nicht nur Daten aus CSV-Dateien in einen InfluxDB-Bucket eingefügt werden, sondern auch aus dem Terminal oder aus einer URL.

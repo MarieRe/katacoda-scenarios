@@ -6,3 +6,4 @@ Danke für Ihre Teilnahme an diesem Katacoda Szenario und viel Spaß bei der Ver
 **\[3\]** Naqvi, S. N. Z., Yfantidou, S., & Zimányi, E. (2017). Time series databases and influxdb. Studienarbeit, Université Libre de Bruxelles, 12.  
 **\[4\]** https://www.visualcrossing.com/weather/weather-data-services  
 **\[5\]** https://www.influxdata.com/products/influxdb/
+**\[6\]** https://devconnected.com/the-definitive-guide-to-influxdb-in-2019/
