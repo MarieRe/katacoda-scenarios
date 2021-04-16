@@ -20,7 +20,8 @@ Mit dem Kommando `influx delete` können Datenpunkte innerhalb eines Zeitraums a
 
 ```
 influx delete \
-    --bucket example-bucket \
+    --bucket testbucket \
+    --org testorg \
     --start 2021-03-04T20:00:00Z \
     --stop 2021-03-05T00:00:00Z
 ```{{execute}}
