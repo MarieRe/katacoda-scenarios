@@ -8,9 +8,9 @@ Nutzen Sie die bereitgestellte csv-Datei und schreiben Sie die Daten in den Buck
 
 ```
 influx write
-    --bucket testbucket
-    --header "#constant measurement,temperature"
-    --header "#datatype dateTime:RFC3339,double"
+    --bucket testbucket \
+    --header "#constant measurement,temperature" \
+    --header "#datatype dateTime:RFC3339,double" \
     --file temperature-example.csv
 ```{{execute}}
 
