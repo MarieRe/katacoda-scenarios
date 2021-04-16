@@ -25,6 +25,10 @@
           {
             "title": "Abfragen",
             "text": "step5_firstquery.md"
+          },
+          {
+            "title": "Empfehlung und Ausblick",
+            "text": "step6_recommendation.md"
           }
         ],
         "intro": {
