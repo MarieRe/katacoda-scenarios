@@ -7,7 +7,7 @@ influx bucket list
 Nutzen Sie die bereitgestellte csv-Datei und schreiben Sie die Daten in den Bucket in InfluxDB.
 
 ```
-influx write
+influx write \
     --bucket testbucket \
     --header "#constant measurement,temperature" \
     --header "#datatype dateTime:RFC3339,double" \
