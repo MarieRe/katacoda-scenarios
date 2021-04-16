@@ -12,5 +12,6 @@ Mit der folgenden Abfrage können wir den Median dieses Zeitraums abfragen. Weit
 ```
 influx query 'from(bucket:"testbucket")
     |> range(start: 2021-03-01T10:00:00Z, stop: 2021-03-01T20:00:00Z)
+    |> drop(columns: ["_field", "_measurement"])
     |> median()'
 ```{{execute}}
