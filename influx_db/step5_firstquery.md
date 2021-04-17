@@ -15,3 +15,5 @@ influx query 'from(bucket:"testbucket")
     |> drop(columns: ["_field", "_measurement"])
     |> median()'
 ```{{execute}}
+
+Nutzen Sie dieses Environment gerne, um weitere Befehle auszuprobieren! Können Sie beispielsweise die wärmste Stunde des 2. März 2021 herausfinden?
