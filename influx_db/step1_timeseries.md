@@ -7,7 +7,8 @@ Durch den Einsatz von Zeitreihendatenbanken wird eine sinnvolle und einfache Aus
 
 ## Vewendung in Data Warehouses
 In einem Data Warehouse ist die Datenspeicherung mit Zeitstempeln in der 'Data Change Detection' nützlich. Wenn neue Informationen inkrementell (durch regelmäßiges Abfragen der Datenquelle) und mit einem Zeitstempel versehen hinzugefügt werden, nennt sich das "Timestamp-based discovery". Aus der Angabe des Zeitstempels, der anders als im Anwendungsfall der Sensordaten den Zeitpunkt der letzten Änderung angibt (statt dem der Messung), können Änderungen in den Daten erschlossen werden. <sup>\[1\]</sup> Einen Vergleich mit anderen Möglichkeiten zur Data Change Detection finden Sie in der Abbildung. <sup>\[1, S.38f.\]</sup> Für manche Anwendungsfälle kann es wichtig sein, auch zu speichern ob ein Eintrag gelöscht wurde. Dies ist bei der "Timestamp-based discovery", wie in der Abbildung ersichtlich, nicht möglich.
-![Vorlesung_DataChangeDetection](.\assets\LectureSlides39-39.png)
+
+![Vorlesung_DataChangeDetection](.\assets\LectureSlides38-39.png)
 
 ## Anforderungen
 
