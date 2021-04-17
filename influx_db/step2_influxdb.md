@@ -1,6 +1,6 @@
-InfluxDB ist ein Produkt von [InfluxData](https://www.influxdata.com/). Die Zeitreihendatenbank wird Open-Source mit Go entwickelt und wurde 2013 erstmals veröffentlicht. Für die Verwendung von verwalteten InfluxDB-Clustern gibt es eine kostenlose, begrenzte Option und Vollversionen, die entweder nach Verwendung oder jährlich bezahlt werden. <sup>\[5\]</sup>
+InfluxDB ist ein Produkt von [InfluxData](https://www.influxdata.com/). Die Zeitreihendatenbank wird Open-Source mit Go entwickelt und wurde 2013 erstmals veröffentlicht. Für die Verwendung von verwalteten InfluxDB-Clustern gibt es eine kostenlose, begrenzte Option und Vollversionen, die entweder nach Verwendung oder jährlich bezahlt werden. <sup>\[6\]</sup>
 
-InfluxDB findet Anwendung in DevOps-Monitoring (z.B. bei IBM), für Real-Time Analytics (z.B. bei eBay) und in vielen weiteren Fällen. Stand 2016 ist InfluxDB die am häufigsten verwendete Zeitreihendatenbank. <sup>\[3\]</sup>
+InfluxDB findet Anwendung in DevOps-Monitoring (z.B. bei IBM), für Real-Time Analytics (z.B. bei eBay) und in vielen weiteren Fällen. Stand 2016 ist InfluxDB die am häufigsten verwendete Zeitreihendatenbank. <sup>\[4\]</sup>
 
 | **Vorteile**    | **Nachteile**   |
 | --------------- | --------------- |
@@ -13,7 +13,7 @@ InfluxDB findet Anwendung in DevOps-Monitoring (z.B. bei IBM), für Real-Time An
 <sup>\[3\]</sup>
 
 ## Beispiel
-Im Terminal sehen Sie die ersten 10 Reihen einer csv-Datei <sup>\[4\]</sup>, die die stündliche Temperatur in Stuttgart vom 1. bis zum 5. März 2021 zeigt.
+Im Terminal sehen Sie die ersten 10 Reihen einer csv-Datei <sup>\[7\]</sup>, die die stündliche Temperatur in Stuttgart vom 1. bis zum 5. März 2021 zeigt.
 
 ![Temperaturverlauf](.\assets\temperature-graph.png)
 
