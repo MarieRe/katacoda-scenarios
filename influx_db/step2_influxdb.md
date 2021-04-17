@@ -6,9 +6,9 @@ InfluxDB findet Anwendung in DevOps-Monitoring (z.B. bei IBM), für Real-Time An
 | --------------- | --------------- |
 | Hoher Durchsatz (*read* und *write*) | Begrenzte Skalierbarkeit in Open-Source Version (kein Clustering) |
 | Vielseitige Kompatibilität (Input plugins, Grafana, Programmiersprachen) | Eher kleine  (aber wachsende) Community |
-| Schneller Einstieg durch gute Dokumentation und einfache Installation | Join-Operationen werden nicht unterstützt |
+| Schneller Einstieg durch gute Dokumentation und einfache Installation | nicht CRUD - *update* und *delete* ist nicht vorgesehen |
 | Eigene SQL-ähnliche Abfragesprache (Continuous Queries werden unterstützt) | Gruppierung von Daten mit großen Abständen ist nicht möglich |
-| Speicherzeit (retention) kann selbst festgelegt werden | nicht CRUD - *update* und *delete* ist nicht vorgesehen |
+| Speicherzeit (retention) kann selbst festgelegt werden | |
 
 <sup>\[3\]</sup>
 
